@@ -31,6 +31,7 @@ jobs:
         CLAVE_UC: ${{ secrets.CLAVE_UC }}
         CLAVE_GMAIL: ${{ secrets.CLAVE_GMAIL }}
         GMAIL_SENDER: ${{ secrets.GMAIL_SENDER}}
+        CORREO_UC: ${{ secrets.CORREO_UC}}
       run: python main.py
 
     - name: 💾 Guardar memoria del bot (historial)
